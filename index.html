@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Crystal Collector </title>
+
+	<meta charset="UTF-8">
+		
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="https://code.jquery.com/jquery-2.2.3.js"></script> 
+
+  	<style>   
+
+    .row {padding-top: 10px;}
+    
+    
+    </style>
+</head>	
+
+<body>
+
+<div class="row">
+  <div class="col-md-4" style="background-color:orange; color:white"><h3>Crystals Collector!</h3></div>  
+</div>
+
+<div class="row">
+  <section id="instructions" class="col-md-6" style="background-color:tan; color:green">You will be given a random number at the start of the game. <br><br> There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score. <br><br> You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.  <br><br> The value of each crystal is hidden from you until you click on it. <br><br> Each time when the game starts, the game will change the values of each crystal. <br><br> <br><br><br> </section>
+</div>
+
+<div class="row">
+   <div class="col-md-3" id="target" style="background-color:green; color:blue; height:100px;">target number <br><br> <br><br><br> </div>
+   <div class="col-md-2" id="results" style="background-color:blue; color:black; height:100px;"> </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-1" id="crystalOne"><img src="assets/images/blue.jpg" class="img-responsive"></div>
+  <div class="col-md-1" id="crystalTwo"><img src="assets/images/green.jpg" class="img-responsive"></div>
+  <div class="col-md-1" id="crystalThree"><img src="assets/images/orange.jpg" class="img-responsive"></div>
+  <div class="col-md-1" id="crystalFour"><img src="assets/images/pink.jpg" class="img-responsive"></div>
+</div>
+
+<div class="row">
+  <div class="col-md-3" id="yourTotalScore" style="background-color:green; color:white">Your total score is: </div>
+</div>
+
+<div class="row">
+  <div class="col-md-3" id="score" style="background-color:green; color:white; height:100px;">0 <br><br> <br><br><br> </div>
+</div>
+
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+
+</html>
